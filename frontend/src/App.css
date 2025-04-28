@@ -1,0 +1,49 @@
+/* Basic styling for the app */
+:root {
+  --primary: #4361ee;
+  --secondary: #3f37c9;
+  --accent: #4895ef;
+  --danger: #f72585;
+  --success: #4cc9f0;
+  --warning: #f8961e;
+  --light: #f8f9fa;
+  --dark: #212529;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-danger {
+  background-color: var(--danger);
+  border-color: var(--danger);
+}
+
+.table {
+  margin-top: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.modal-content {
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.table thead {
+  background-color: var(--primary);
+  color: white;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(67, 97, 238, 0.1);
+}
