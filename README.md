@@ -70,8 +70,4 @@ event-managment-system/
 | PUT    | /api/events/{id} | Update event      |
 | DELETE | /api/events/{id} | Delete event      |
 
-## Screenshots
-(Add your screenshots here after testing)
 
-## License
-MIT
